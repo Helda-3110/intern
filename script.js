@@ -8,12 +8,6 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
     });
 });
 
-// Dark/Light Mode
-const toggleSwitch = document.getElementById('toggle-switch');
-
-toggleSwitch.addEventListener('click', function() {
-  document.body.classList.toggle('dark-mode');
-});
 
 // Form Validation
 document.getElementById('contact-form').addEventListener('submit', function (e) {
