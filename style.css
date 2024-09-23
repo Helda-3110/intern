@@ -104,6 +104,24 @@ nav ul li a {
     margin: 0;
 }
 
+/* LinkedIn Link Styling */
+#resume #linkedin-link {
+    color: #1da1f2; /* LinkedIn blue color */
+    text-decoration: none;
+}
+
+#resume #linkedin-link:hover {
+    color: #0e76a8;
+    text-decoration: underline;
+}
+
+/* Optional: Additional styling for the resume image */
+#resume img {
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+
 /* Contact Section */
 #contact-form {
     max-width: 400px;
