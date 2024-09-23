@@ -48,6 +48,18 @@ nav ul li a {
     justify-content: center;
 }
 
+/* Profile Picture Styling */
+.profile-pic {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Ensure height matches width to make it circular */
+    border-radius: 50%; /* This makes the image a perfect circle */
+    border: 3px solid #f7f1d4; /* Optional: Add a border around the image */
+    object-fit: cover; /* Ensure the image fits well within the circle */
+    margin: 20px 0; /* Adjust the spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+
 /* About Me Section - Link Styling */
 #about a {
     color: #4caf50; /* Change this to the color you want for the links */
