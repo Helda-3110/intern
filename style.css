@@ -50,13 +50,14 @@ nav ul li a {
 
 /* Profile Picture Styling */
 .profile-pic {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px; /* Adjust size as needed */
     height: 150px; /* Ensure height matches width to make it circular */
-    border-radius: 50%; /* This makes the image a perfect circle */
-    border: 3px solid #f7f1d4; /* Optional: Add a border around the image */
-    object-fit: cover; /* Ensure the image fits well within the circle */
-    margin: 20px 0; /* Adjust the spacing */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #f7f1d4; /* Optional border */
+    object-fit: cover; /* Ensures the image fits well in the circular frame */
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 20px auto; /* Centers the image horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
 
