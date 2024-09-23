@@ -48,6 +48,17 @@ nav ul li a {
     justify-content: center;
 }
 
+/* About Me Section - Link Styling */
+#about a {
+    color: #4caf50; /* Change this to the color you want for the links */
+    text-decoration: underline; /* Optional: To underline the links */
+}
+
+#about a:hover {
+    color: #ffb74d; /* Optional: Change the color on hover */
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
 /* Skills Section */
 .skills-container {
     display: flex;
