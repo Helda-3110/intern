@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(135deg, #082746, #013c6e); /* Dark gradient background */
-    color: #f0f0f0;
+    background: linear-gradient(135deg, #082746, #1e3244); /* Dark gradient background */
+    color: #f7f1d4;
 }
 
 nav {
@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 .skill-progress {
-    background: #4caf50;
+    background: #2d502f;
     height: 100%;
 }
 
@@ -86,7 +86,7 @@ nav ul li a {
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #f7f1d4;
 }
 
 .project-card h3 {
